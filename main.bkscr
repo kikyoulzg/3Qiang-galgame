@@ -2,20 +2,23 @@
 [bgm file="sound/岩崎琢 - Ao dai.mp3" fadein=200 loop=true vol=100]
 [sprite index=10 file="images/BG32a_1280"]
 [addto index=10 target=basic_layer zorder=0 pos=[0,0] opacity=255]
-[textwindow file="ui/textwindow.png" pos=[126,450]rect=[20,55,1008,231]]
+[textwindow file="ui/textwindow.png" pos=[126,450] rect=[20,55,1008,231]]
 
 [sprite index=11 file="images/A_happy"]
 [addto index=11 target=basic_layer zorder=10 pos=[400,120] opacity=255]
 [sprite index=12 file="images/B_wordless"]
 [addto index=12 target=basic_layer zorder=10 pos=[640,120] opacity=255]
 
-[namebox text="小刘子"]
+[namebox text="小刘碳"]
+[textstyle size=21 color=0xff0000]
 我们这是在哪儿？[p]
 
 [namebox text="小楚酱"]
+[textstyle size=21 color=0xff0000]
 不，这都不是重点，小刘你怎么……变成女孩子了！？[p]
 
-[remove index=21 delete=true]
+[namebox text="两人"]
+[textstyle size=21 color=0xff0000]
 ……[p]
 
 @quit

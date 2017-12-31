@@ -2,7 +2,7 @@
 //Don't modify this file if not necessery.
 
 GameName = "我的第一个游戏";
-ResolutionSize = [1920, 1080];
+ResolutionSize = [1280,720];
 SaveDir = "SaveData";
 MaxSaveDataNum = 10000;
 DefaultFontSize = 24;
