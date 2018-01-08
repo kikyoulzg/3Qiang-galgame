@@ -1,7 +1,6 @@
 ﻿*main
-@bgm file="sound/岩崎琢 - Ao dai.mp3" fadein=200 loop=false vol=100
-@stop channel=bgm fadeout=250
-@waitfade channel=bgm
+@bgm file="sound/岩崎琢 - Ao dai.mp3" fadein=200 loop=true vol=100
+
 @sprite index=10 file="images/BG32a_1280"
 @addto index=10 target=basic_layer zorder=0 pos=[0,0] opacity=255
 @textwindow file="ui/textwindow.png" pos=[126,450] rect=[20,55,1008,231]
@@ -19,32 +18,27 @@
 不像在中国耶…… [p]
 
 @namebox text="小楚酱"
-@textstyle size=21 color=#FFD900
-@textstyle size=35
+@textstyle size=35 color=#FFD900
 不
 ，
+@textstyle size=21
 这都不是
 @b 
 重点
 @b 
 ，
+@textstyle size=35 color=#7472B8
 @i 
 小刘
-@i 
-@textstyle shadow=true shadowcolor=#C4FEFE
-@textstyle color=0x000000 stroke=false 
-你怎么……变成女孩子了！？[p]
+@i
 
+@textstyle  size=21 shadow=true shadowcolor=#C4FEFE
+你怎么……变成女孩子了！？[p]
+@stop channel=bgm fadeout=250
+@textstyle shadow=false 
 @namebox text="两人"
 @textstyle size=21 color=0xff0000
 ……[p]
 
 
 @quit
-
-
-
-
-
-
-
